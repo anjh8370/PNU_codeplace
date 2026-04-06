@@ -1,6 +1,5 @@
-line = str(input())
 answer=0
-n = list(map(str, line.split('+')))
+n = list(map(str, input().split('+')))
 for i in n:
     if '-' in i:
         n1 = list(map(int, i.split('-')))
